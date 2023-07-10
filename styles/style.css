@@ -63,7 +63,6 @@
 .img1 {
   background-color: rgba(167, 33, 98, 0.15);
   padding: 110px 78px 0;
-  margin-bottom: 0px;
   margin-right: 24px;
 }
 .img2 {
@@ -73,8 +72,8 @@
 }
 .img3 {
   background-color: rgba(71, 125, 17, 0.15);
-  padding: 67px 75px 0;
-  margin-bottom: 0px;
+  padding: 67px 75px 0px 75px;
+  margin-right: 24px;
 }
 .flower-name {
   text-align: center;
@@ -82,4 +81,49 @@
   font-size: 24px;
   font-weight: 700;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+/* support section */
+.support-sec {
+  background-color: rgba(39, 39, 39, 0.05);
+  margin: 0 228px;
+  padding: 86px 310px 86px 232px;
+  margin-bottom: 228px;
+}
+.support {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.support-des {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.support-blocks{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* deal section */
+
+.deal-sec{
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+    padding-bottom: 162px;
+}
+.deal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deal-details{
+    text-align: center;
+    margin: 230px 186px 0px 400px;
+}
+.deal-img{
+    margin:100px 430px 100px 186px;
 }
