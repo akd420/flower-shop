@@ -35,7 +35,7 @@
   margin-top: 30px;
 }
 .banner-img {
-  width: 540px;
+  width: 635px;
   margin-top: 50px;
 }
 
@@ -126,4 +126,22 @@
 }
 .deal-img{
     margin:100px 430px 100px 186px;
+}
+
+/* special-section */
+
+.special-sec{
+  background-color: rgb(241, 226, 220);
+  padding:100px 240px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.today-title{
+  text-align: center;
+}
+.flower-list{
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
