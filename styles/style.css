@@ -135,6 +135,7 @@
   padding:100px 240px;
   margin-left: 150px;
   margin-right: 150px;
+  margin-bottom: 128px;
 }
 .today-title{
   text-align: center;
@@ -144,4 +145,79 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* instagram section */
+
+.insta-sec{
+  padding: 0 240px;
+  margin-bottom: 128px;
+}
+.insta-title{
+  text-align: center;
+  margin-bottom: 48px;
+}
+.insta-img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* latest deals */
+
+.latest-sec{
+  background-image: url(../Flower-Asset/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 122px;
+  padding-bottom: 122px;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-bottom: 128px;
+}
+.latest-title{
+  text-align: center;
+  margin-bottom: 48px;
+}
+.mail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#email{
+  border: none;
+  width: 700px;
+  height: 50px;
+  padding-left: 22px;
+  color: rgba(39, 39, 39, 0.6);
+  vertical-align: bottom;
+  margin-right: 16px;
+  border-radius: 8px;
+}
+
+/* footer section */
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.footer-sec{
+  padding:128px 640px
+}
+.footer-title{
+  font-size: 48px;
+font-weight: 800;
+}
+.footer-span{
+  color: rgba(229, 84, 115, 1);
+}
+.footer-para{
+  margin-top: 24px;
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer-address{
+  color: rgba(255, 255, 255, 0.4);
 }
