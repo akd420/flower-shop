@@ -83,6 +83,9 @@
   text-decoration: underline;
   cursor: pointer;
 }
+.flower-img{
+  vertical-align: bottom;
+}
 
 /* support section */
 .support-sec {
@@ -108,6 +111,9 @@
     justify-content: center;
     text-align: center;
 }
+.support-img{
+  margin-bottom: 24px
+}
 /* deal section */
 
 .deal-sec{
@@ -121,8 +127,10 @@
     justify-content: space-between;
 }
 .deal-details{
-    text-align: center;
-    
+    text-align: center;   
+}
+.deal-para{
+  margin-top: 24px;
 }
 
 /* special-section */
@@ -143,7 +151,9 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.price-sec{
+  text-align: center;
+}
 /* instagram section */
 
 .insta-sec{
@@ -189,6 +199,9 @@
   vertical-align: bottom;
   margin-right: 16px;
   border-radius: 8px;
+}
+.sub{
+  margin-top: 0;
 }
 
 /* footer section */
